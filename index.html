@@ -201,5 +201,127 @@
 		</div>
 		</div>
 	</div>
+		
+		<style type="text/css">
+			/* html, body{
+				height: 100%;
+				margin: 0;
+				top: 0;
+				left: 0;
+			} */
+			.stage-area{
+				perspective: 800px;
+				min-height: 100%;
+				perspective-origin: center 30%;
+			}
+			@keyframes rotating{
+				0%{
+					transform: rotateX(360deg);
+				}
+				50%{
+					transform: rotateX(180deg);
+					
+				}
+				100%{
+					transform: rotateX(0deg);
+				}
+			}
+			.container{
+				transform-style: preserve-3d;
+				width: 160px;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-top: -80px;
+				margin-left: -80px;
+				/* animation: rotating 10s linear 3s infinite alternate forwards; */
+				animation-name: rotating;
+				animation-duration: 10s;
+				animation-timing-function: linear;
+				/* animation-delay: 3s; */
+				animation-iteration-count: infinite;
+				/* animation-direction: alternate; */
+				/* animation-fill-mode: forwards; */
+				z-index: 3;
+			}
+			.container:hover{
+				animation-play-state: paused;
+			}
+			.container img{
+				border: 3px solid rgba(255,255,255,0.5);
+				min-height: 100px;
+			}
+			img{
+				max-width: 100%;
+				width: 100%;
+				height: 100%;
+				position: absolute;
+			}
+			.container a:nth-child(1) img{
+				transform: rotateX(0deg) translateZ(250px);
+			}
+			.container a:nth-child(2) img{
+				transform: rotateX(40deg) translateZ(250px);
+			}
+			.container a:nth-child(3) img{
+				transform: rotateX(80deg) translateZ(250px);
+			}
+			.container a:nth-child(4) img{
+				transform: rotateX(120deg) translateZ(250px);
+			}
+			.container a:nth-child(5) img{
+				transform: rotateX(160deg) translateZ(250px);
+			}
+			.container a:nth-child(6) img{
+				transform: rotateX(200deg) translateZ(250px);
+			}
+			.container a:nth-child(7) img{
+				transform: rotateX(240deg) translateZ(250px);
+			}
+			.container a:nth-child(8) img{
+				transform: rotateX(280deg) translateZ(250px);
+			}
+			.container a:nth-child(9) img{
+				transform: rotateX(320deg) translateZ(250px);
+			}
+			body > img:not(:target){
+				z-index: -1;
+			}
+			/* body > img:target{
+				z-index: 2;
+			} */
+			/* body > div:nth-child(1):not(:target){
+				z-index: -1;
+			} */
+		</style>
+	</head>
+<!-- 	<body> -->
+		<div id="t1"><img src="http://p1.music.126.net/IfZUUlfKPzQvKQfoWo3t7w==/109951164492635001.jpg?imageView&quality=89" ></div>
+		<img id="t2" src="http://p1.music.126.net/UK33yFeDmW_GrBsS9zRSMQ==/109951164491296812.jpg?imageView&quality=89" >
+		<img id="t3" src="http://p1.music.126.net/8vt_lU9pAitTR19NrlUkpg==/109951164492619388.jpg?imageView&quality=89" >
+		<img id="t4" src="http://p1.music.126.net/E9AJc6bMs9KhB3JaXJeEJA==/109951164492619315.jpg?imageView&quality=89" >
+		<img id="t5" src="http://p1.music.126.net/Y1ZbH3CtR_SFiWrU_4n1KQ==/109951164492627917.jpg?imageView&quality=89" >
+		<img id="t6" src="http://p1.music.126.net/2lqtbzx03mCptSJ-r8_brQ==/109951164492621079.jpg?imageView&quality=89" >
+		<img id="t7" src="http://p1.music.126.net/8vt_lU9pAitTR19NrlUkpg==/109951164492619388.jpg?imageView&quality=89" >
+		<img id="t8" src="http://p1.music.126.net/U5JAVOg68-awuihRdeKQEA==/109951164492627238.jpg?imageView&quality=89" >
+		<img id="t9" src="http://p1.music.126.net/Y1ZbH3CtR_SFiWrU_4n1KQ==/109951164492627917.jpg?imageView&quality=89" >
+		<div class="stage-area">
+			<div class="container">
+				<a href="#t1"><img src="http://p1.music.126.net/IfZUUlfKPzQvKQfoWo3t7w==/109951164492635001.jpg?imageView&quality=89" ></a>
+				<a href="#t2"><img src="http://p1.music.126.net/UK33yFeDmW_GrBsS9zRSMQ==/109951164491296812.jpg?imageView&quality=89" ></a> 
+				<a href="#t3"><img src="http://p1.music.126.net/8vt_lU9pAitTR19NrlUkpg==/109951164492619388.jpg?imageView&quality=89" ></a>
+				<a href="#t4"><img src="http://p1.music.126.net/E9AJc6bMs9KhB3JaXJeEJA==/109951164492619315.jpg?imageView&quality=89" ></a>
+				<a href="#t5"><img src="http://p1.music.126.net/Y1ZbH3CtR_SFiWrU_4n1KQ==/109951164492627917.jpg?imageView&quality=89" ></a>
+				<a href="#t6"><img src="http://p1.music.126.net/2lqtbzx03mCptSJ-r8_brQ==/109951164492621079.jpg?imageView&quality=89" ></a>
+				<a href="#t7"><img src="http://p1.music.126.net/8vt_lU9pAitTR19NrlUkpg==/109951164492619388.jpg?imageView&quality=89" ></a>
+				<a href="#t8"><img src="http://p1.music.126.net/U5JAVOg68-awuihRdeKQEA==/109951164492627238.jpg?imageView&quality=89" ></a>
+				<a href="#t9"><img src="http://p1.music.126.net/Y1ZbH3CtR_SFiWrU_4n1KQ==/109951164492627917.jpg?imageView&quality=89" ></a>
+			</div>
+		</div>
+		<!-- <div style="width: 0px;height: 0;border-left: 50px solid transparent;border-right: 50px solid transparent;border-top: 100px solid red;border-radius: 50%;"></div> -->
+<!-- 	</body> -->
+		
 	</body>
+	
+	
 </html>
