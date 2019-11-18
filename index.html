@@ -1,210 +1,223 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title></title>
-		<style>
-			*{
-				margin: 0px;
-				padding: 0px;
-			}
-			.box{
-				display: flex;
-				flex-direction: row;
-				justify-content: center;
-				width: 100%;
-			}
-			.middle{
-				display: flex;
-				flex-direction: column;
-				align-items: center;
-				
-			}
-			.bottom{
-				display: flex;
-				flex-direction: column;
-				justify-content: space-around;
-			}
-			.title{
-				background-image:url('http://www.ihuayue.cn/res/img/index.png'); 
-				background-repeat: no-repeat;
-				 background-position: center center;
-				 background-size: cover;
-				height: 515px;
-				width: 100%;
-				
-			}
-			#m1{
-				width: 70%;
-				
-				margin-left: auto;
-				margin-right: auto;
-				margin-top: 50px;
-			}
-			#m2{
-				display: flex;
-				flex-direction: column;
-				
-				align-items: center;
-				background-repeat: no-repeat;
-				 background-position: center center;
-				 background-size: auto;
-				height: 515px;
-				width: 100%;
-				background-image:url('http://www.ihuayue.cn/res/img/index-body-phone.png'); 
-				
-				margin-left: auto;
-				margin-right: auto;
-				margin-top: 50px;
-			}
-			#btn1{
-				padding-top: 280px;
-				margin-left: 440px;
-			}
-			#btn2{
-				margin-left: 440px;
-			}
-			#m3{
-				width: 80%;
-			
-				
-				margin-left: auto;
-				margin-right: auto;
-				margin-top: 50px;
-				margin-bottom: 100px;
-			}
-			#m3 table{
-				width: 600px;
-				font-size: 30px;
-				margin-left: auto;
-				margin-right: auto;
-				text-align: right;
-			}
-			#tab1 table{
-				width: 200px;
-				
-			}
-			.tab1{
-				font-size: 25px;
-				line-height: 200%;
-			}
-			button{
-				width: 180px;
-				height: 70px;
-				color: white;
-				font-size: 24px;
-				background-color: #0EACDC;
-				margin: 20px;
-				border: none;
-			}
-			
-			
-		</style>
-	</head>
-	<body>
-		<div class="box">
-			<header class="title">
-				<div >
-					<span><img src="http://www.ihuayue.cn/res/img/logo.png"/></span>
-					<a href="#" style="font-size: 30px;">首页<a>&nbsp;&nbsp;&nbsp;&nbsp;</a></a>
-					<a href="http://www.ihuayue.cn/#about" style="font-size: 30px;">关于华阅 <a>&nbsp;&nbsp;&nbsp;&nbsp;</a></a>
-					<a href="http://www.ihuayue.cn/#product" style="font-size: 30px;">华阅产品 <a>&nbsp;&nbsp;&nbsp;&nbsp;</a></a>
-					<a href="http://www.ihuayue.cn/#contact-us" style="font-size: 30px;">联系我们 <a>&nbsp;&nbsp;&nbsp;&nbsp;</a></a>
-					<a href="http://www.ihuayue.cn/#join-us" style="font-size: 30px;">加入我们 </a>
-				</div>
-			</header>
-		</div>
-			
-		<div class="middle">
-			<div id="m1">
-				<table class="tab1" >
-								
-								<tr>
-									
-									<td>
-										<table border="0" cellspacing="0" cellpadding="0">
-											<tr><th width="600px">公司简介</th></tr>
-										</table>
-									</td>
-									
-									<td>深圳市华阅文化传媒有限公司是中国的一家互联网文化传媒公司，总部位于深圳市南山区。
-				深圳市华阅文化传媒有限公司的主营业务为开展互联网阅读及相关业务，包括但不限于网络小说、及网络动漫的创作、采编、发行、推广(其中，网络小说的创作、采编、发行、 推广业务为核心主营业务); 主营产品有鲸鱼阅读手机软件、鲸鱼阅读中文网以及鲸鱼阅读WAP书城</td></tr>
-							</table>
-			</div>
-			<p style="margin-top: 20px;">
-				<a style="font-size: 30px;" href="http://www.jingyu.com/">鲸鱼阅读</a>
-				<a style="font-size: 30px;" href="http://www.jingyu.com/">鲸鱼PC站</a>
-			</p>
-			<hr width="100%" />
-			<div id="m2">
-				<div id="btn1">
-					<button type="button" @onclick="http://m.jingyu.com/download/app?source=NP1_APK">安卓版下载</button>
-				</div>
-				<div id="btn2">
-					<button type="button" @onclick="http://m.jingyu.com/download/app?source=NP1_APK">苹果版下载</button>
-				</div>
-					
-				
-			</div>
-			<div id="m3">
-				<table >
-					<tr><th colspan="2" style="text-align: center;">商务合作</th></tr>
-					<tr><th style="text-align: left;">渠道商务合作<hr style="margin-top: 10px;"></th><td  style="background-color:beige; " ></td></tr>
-					<tr>
-						<td>
-							<table style="text-align: left;">
-								<th>陈小姐</th>
-								<tr><td style="font-size:25px;">Email：cp@ihuayue.cn</td></tr>
-								<tr><td style="font-size:25px;">QQ：2587352236</td></tr>
-							</table>
-						</td>
-					<td style="background-color:beige;"><img src="http://www.ihuayue.cn/res/img/code-weixin.png" ></td></tr>
-				</table>
-			</div>
-		<div style="background-color:beige ; width: 100%;">
-		<div class="bottom" >
-			<table border="0"  style="font-size: 15px; text-align: center; width:1000px; background-color: beige; border-spacing: 10px 15px;margin-left: auto;margin-right: auto;">
-				<tr style="font-size:20px; height: 80px;" >
-					<td style="text-indent:10px;">了解华阅</td>
-					<td >华阅产品</td>
-					<td width="200px"></td>
-					<td colspan="2">版权说明</td>
-				
-					
-				</tr>
-				<tr>
-					<td>关于我们</td>
-					<td>	鲸鱼阅读APP</td>
-					<td></td>
-					<td colspan="2" >Copyright 鲸鱼阅读.All Rights Reseved.</td>
-					
-				</tr>
-				<tr>
-					<td >联系我们</td>
-					<td>鲸鱼阅读官网</td>
-					<td></td>
-					<td colspan="2">粤ICP备16117461号-1</td>
-				</tr>
-				<tr>
-					<td>加入我们</td>
-					<td></td>
-					<td></td>
-					<td colspan="2">粤网文［2017］1287-071号 深圳市华阅文化传媒有限公司
-</td>
-				</tr>
-				<tr>
-					<td colspan="4">深圳市南山区粤海街道科苑北15号科兴科学园C3-502</td>
-					
-				</tr>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style>
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+    .box{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+    }
+    .middle{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
-			</table>
-		</div>
-		</div>
-	</div>
-		
-		
-		
-	</body>
-	
-	
+    }
+    .bottom{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    .title{
+      background-image:url('http://www.ihuayue.cn/res/img/index.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      height: 515px;
+      width: 100%;
+
+    }
+    #m1{
+      width: 70%;
+
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+    }
+    #m2{
+      display: flex;
+      flex-direction: column;
+
+      align-items: center;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: auto;
+      height: 515px;
+      width: 100%;
+      background-image:url('http://www.ihuayue.cn/res/img/index-body-phone.png');
+
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+    }
+    #btn1{
+      padding-top: 280px;
+      margin-left: 440px;
+    }
+    #btn2{
+      margin-left: 440px;
+    }
+    #m3{
+      width: 80%;
+
+
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+      margin-bottom: 100px;
+    }
+    #m3 table{
+      width: 600px;
+      font-size: 30px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: right;
+    }
+    #tab1 table{
+      width: 200px;
+
+    }
+    .tab1{
+      font-size: 25px;
+      line-height: 200%;
+    }
+    button{
+      width: 180px;
+      height: 70px;
+      color: white;
+      font-size: 24px;
+      background-color: #0EACDC;
+      margin: 20px;
+      border: none;
+    }
+
+
+  </style>
+</head>
+<body>
+<div class="box">
+  <!--box-->
+  <header class="title">
+    <div>
+      <span><img src="http://www.ihuayue.cn/res/img/logo.png" /></span>
+      <a href="#" style="font-size: 30px;">首页<a>&nbsp;&nbsp;&nbsp;&nbsp;</a></a>
+      <a href="http://www.ihuayue.cn/#about" style="font-size: 30px;">关于华阅 <a>&nbsp;&nbsp;&nbsp;&nbsp;</a></a>
+      <a href="http://www.ihuayue.cn/#product" style="font-size: 30px;">华阅产品 <a>&nbsp;&nbsp;&nbsp;&nbsp;</a></a>
+      <a href="http://www.ihuayue.cn/#contact-us" style="font-size: 30px;">联系我们 <a>&nbsp;&nbsp;&nbsp;&nbsp;</a></a>
+      <a href="http://www.ihuayue.cn/#join-us" style="font-size: 30px;">加入我们 </a>
+    </div>
+  </header>
+</div>
+
+<div class="middle">
+  <!--middle-->
+  <div id="m1">
+    <table class="tab1">
+
+      <tr>
+
+        <td>
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <th width="600px">公司简介</th>
+            </tr>
+          </table>
+        </td>
+
+        <td>深圳市华阅文化传媒有限公司是中国的一家互联网文化传媒公司，总部位于深圳市南山区。
+          深圳市华阅文化传媒有限公司的主营业务为开展互联网阅读及相关业务，包括但不限于网络小说、及网络动漫的创作、采编、发行、推广(其中，网络小说的创作、采编、发行、 推广业务为核心主营业务);
+          主营产品有鲸鱼阅读手机软件、鲸鱼阅读中文网以及鲸鱼阅读WAP书城</td>
+      </tr>
+    </table>
+  </div>
+  <p style="margin-top: 20px;">
+    <a style="font-size: 30px;" href="http://www.jingyu.com/">鲸鱼阅读</a>
+    <a style="font-size: 30px;" href="http://www.jingyu.com/">鲸鱼PC站</a>
+  </p>
+  <hr width="100%" />
+  <!--middle-2-->
+  <div id="m2">
+    <div id="btn1">
+      <button type="button" @onclick="http://m.jingyu.com/download/app?source=NP1_APK">安卓版下载</button>
+    </div>
+    <div id="btn2">
+      <button type="button" @onclick="http://m.jingyu.com/download/app?source=NP1_APK">苹果版下载</button>
+    </div>
+
+  </div>
+  <!--middle-3-->
+  <div id="m3">
+    <table>
+      <tr>
+        <th colspan="2" style="text-align: center;">商务合作</th>
+      </tr>
+      <tr>
+        <th style="text-align: left;">渠道商务合作
+          <hr style="margin-top: 10px;">
+        </th>
+        <td style="background-color:beige; "></td>
+      </tr>
+      <tr>
+        <td>
+          <table style="text-align: left;">
+            <th>陈小姐</th>
+            <tr>
+              <td style="font-size:25px;">Email：cp@ihuayue.cn</td>
+            </tr>
+            <tr>
+              <td style="font-size:25px;">QQ：2587352236</td>
+            </tr>
+          </table>
+        </td>
+        <td style="background-color:beige;"><img src="http://www.ihuayue.cn/res/img/code-weixin.png"></td>
+      </tr>
+    </table>
+  </div>
+  <div style="background-color:beige ; width: 100%;">
+    <!--buttom-->
+    <div class="bottom">
+      <table border="0" style="font-size: 15px; text-align: center; width:1000px; background-color: beige; border-spacing: 10px 15px;margin-left: auto;margin-right: auto;">
+        <tr style="font-size:20px; height: 80px;">
+          <td style="text-indent:10px;">了解华阅</td>
+          <td>华阅产品</td>
+          <td width="200px"></td>
+          <td colspan="2">版权说明</td>
+        </tr>
+        <tr>
+          <td>关于我们</td>
+          <td> 鲸鱼阅读APP</td>
+          <td></td>
+          <td colspan="2">Copyright 鲸鱼阅读.All Rights Reseved.</td>
+        </tr>
+        <tr>
+          <td>联系我们</td>
+          <td>鲸鱼阅读官网</td>
+          <td></td>
+          <td colspan="2">粤ICP备16117461号-1</td>
+        </tr>
+        <tr>
+          <td>加入我们</td>
+          <td></td>
+          <td></td>
+          <td colspan="2">粤网文［2017］1287-071号 深圳市华阅文化传媒有限公司
+          </td>
+        </tr>
+        <tr>
+          <td colspan="4">深圳市南山区粤海街道科苑北15号科兴科学园C3-502</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+</body>
 </html>
+
+
+
